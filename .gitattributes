@@ -50,3 +50,5 @@ vendor/sdl2/mingw64/lib/libSDL2_mixer.la filter=lfs diff=lfs merge=lfs -text
 vendor/sdl2/mingw64/lib/libSDL2_test.la filter=lfs diff=lfs merge=lfs -text
 vendor/sdl2/mingw64/lib/libSDL2_ttf.la filter=lfs diff=lfs merge=lfs -text
 vendor/sdl2/mingw64/lib/libSDL2main.la filter=lfs diff=lfs merge=lfs -text
+res/fire.png filter=lfs diff=lfs merge=lfs -text
+res/halo.jpg filter=lfs diff=lfs merge=lfs -text
