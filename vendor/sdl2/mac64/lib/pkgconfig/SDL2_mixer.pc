@@ -1,0 +1,13 @@
+prefix=/Users/terryhaowu/data/cpdocs/github.com/terrywh/dawn/vendor/sdl2/mac64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SDL2_mixer
+Description: mixer library for Simple DirectMedia Layer
+Version: 2.6.2
+Requires: sdl2 >= 2.0.9
+Libs: -L${libdir} -lSDL2_mixer
+Cflags: -I${includedir}/SDL2
+Requires.private: 
+Libs.private:  -Wl,-framework,AudioToolbox -Wl,-framework,AudioUnit -Wl,-framework,CoreServices
